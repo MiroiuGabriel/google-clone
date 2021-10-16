@@ -37,7 +37,7 @@ export default function Home() {
 					<p className="link">Gmail</p>
 					<p className="link">Images</p>
 					<ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer transition duration-200 ease-out" />
-					<Avatar url="https://coaching.papareact.com/ai9" />
+					<Avatar url="https://media-exp1.licdn.com/dms/image/C5603AQFhu-ZUS9ZUfA/profile-displayphoto-shrink_200_200/0/1634060673040?e=1639612800&v=beta&t=vKZKOTpKkUZpvgwU_8iH9Pjvdtyd8xoRHYK0G5uNR1o" />
 				</div>
 			</header>
 

@@ -8,6 +8,7 @@ import HeaderOptions from './HeaderOptions';
 function Header() {
 	const router = useRouter();
 	const searchInputRef = useRef(null);
+	const queryTerm = router.query.term || '';
 
 	const search = e => {
 		e.preventDefault();
@@ -34,6 +35,7 @@ function Header() {
 						ref={searchInputRef}
 						type="text"
 						className="flex-grow w-full focus:outline-none"
+						defaultValue={queryTerm}
 					/>
 					<XIcon
 						className="h-7 cursor-pointer sm:mr-3 text-gray-500 transition duration-100 transform hover:scale-125 ease-out"
@@ -50,7 +52,7 @@ function Header() {
 					</button>
 				</form>
 				<Avatar
-					url="https://coaching.papareact.com/ai9"
+					url="https://media-exp1.licdn.com/dms/image/C5603AQFhu-ZUS9ZUfA/profile-displayphoto-shrink_200_200/0/1634060673040?e=1639612800&v=beta&t=vKZKOTpKkUZpvgwU_8iH9Pjvdtyd8xoRHYK0G5uNR1o"
 					className="ml-auto"
 				/>
 			</div>
